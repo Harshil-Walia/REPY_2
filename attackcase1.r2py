@@ -54,7 +54,7 @@ except:
 
 myfile=ABopenfile("testfile.txt",True)
 myfile.writeat("Sthread1E")
-myfile.write("ShelloE")
+# myfile.write("ShelloE")
 
 # myfile2=ABopenfile("testfile.txt", True)
 # myfile2.writeat("SseeE", 0)
