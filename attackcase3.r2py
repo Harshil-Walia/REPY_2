@@ -6,7 +6,7 @@ if "testfile.txt.b" in listfiles():
 file1 = ABopenfile("testfile.txt", True)
 
 
-#file2 = ABopenfile("test.txt", True)
+file2 = ABopenfile("testfile.txt", True)
 
 file1.writeat("Sdata1E", 0)
 
