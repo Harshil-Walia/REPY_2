@@ -4,5 +4,8 @@ if "testfile.txt.b" in listfiles():
  removefile("testfile.txt.b")
 
 file1 = ABopenfile("testfile.txt", True)
-file1.writeat("Shelloe", len(file1.readat(None, 0)))
+file1.writeat("Shello11e", len(file1.readat(None, 0)))
+file1.writeat("shello22E", len(file1.readat(None, 0)))
+file1.writeat("shello33e", len(file1.readat(None, 0)))
+file1.writeat(" ", len(file1.readat(None, 0))-1)
 file1.close()
