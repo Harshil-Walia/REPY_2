@@ -5,7 +5,7 @@ if "testfile.txt.b" in listfiles():
 
 file1 = ABopenfile("testfile.txt", True)
 
-file1.writeat("invalidE", len(file1.readat(None, 0)))
+file1.writeat("SinvalidE", len(file1.readat(None, 0)))
 
 #file1.writeat("shello22E", len(file1.readat(None, 0)))
 #file1.writeat("shello33e", len(file1.readat(None, 0)))
