@@ -17,7 +17,7 @@ try:
 except:
  myfile.close()
  # Error Handle or Failure Condition
- # log("Empty file is not handled properly!")
+ log("Empty file is not handled properly!")
 
 
 # WRITE OPERATION
@@ -50,7 +50,15 @@ try:
 except:
  #Close the file
  myfile.close()
-# log("Valid Data write to a file is unsuccessfull!")
+#  log("Valid Data write to a file is unsuccessfull!")
 
+myfile=ABopenfile("testfile.txt",True)
+myfile.writeat("Sthread1E")
+
+myfile2=ABopenfile("test.txt", True)
+myfile2.writeat("SseeE", 0)
+
+myfile.close()
+myfile2.close()
 
 
