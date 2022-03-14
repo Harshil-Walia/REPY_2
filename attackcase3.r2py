@@ -6,11 +6,11 @@ if "testfile.txt.b" in listfiles():
 file1 = ABopenfile("testfile.txt", True)
 
 
-file2 = ABopenfile("test.txt", True)
+#file2 = ABopenfile("test.txt", True)
 
 file1.writeat("Sdata1E", 0)
 
-file2.writeat("SvalidE", True)
+#file2.writeat("SvalidE", True)
 
 file1.close()
-file2.close()
+#file2.close()
