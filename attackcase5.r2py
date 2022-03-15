@@ -9,3 +9,9 @@ file1.writeat("Stest12345E", 0)
 
 file1.close()
 
+file1 = ABopenfile("testfile.txt", True)
+
+file1.writeat("Stest12345E", 0)
+
+file1.close()
+
