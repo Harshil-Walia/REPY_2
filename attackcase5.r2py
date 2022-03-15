@@ -4,14 +4,15 @@ if "testfile.txt.b" in listfiles():
  removefile("testfile.txt.b")
 
 file1 = ABopenfile("testfile.txt", True)
-
 file1.writeat("Stest12345E", 0)
-
 file1.close()
 
 file1 = ABopenfile("testfile.txt", True)
-
 file1.writeat("Stest12345E", 0)
-
+file1.writeat("Stest12345E", len(file1.readat(None, 0)))
 file1.close()
 
+file1 = ABopenfile("testfile.txt", True)
+file1.writeat("Stest12345E", -1)
+file1.writeat("Stest12345E", 0)
+file1.close()
