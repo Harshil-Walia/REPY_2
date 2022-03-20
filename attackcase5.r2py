@@ -5,8 +5,7 @@ if "testfile.txt.b" in listfiles():
 
 file1 = ABopenfile("testfile.txt", True)
 file_length = len(file1.readat(None, 0))
-file1.writeat("Stest12345E   ", file_length)
-# file1.writeat("Stest12345E   ", file_length)
+file1.writeat("Stest12345E   ", file_length+0.1)
 file1.close()
 
 file11 = ABopenfile("testfile.txt", False)
